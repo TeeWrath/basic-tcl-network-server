@@ -1,1 +1,2 @@
 # basic-tcl-network-server
+A small network server that illustrates the sophisticated I/O and socket facilities in Tcl. The server can accept connections from multiple clients. For each client, the server just echoes what a client sends it. Tcl manages all the I/O with different clients so the server does not have to block servicing a client or waiting for connections. You can use this server as the basis for almost any network service. 
